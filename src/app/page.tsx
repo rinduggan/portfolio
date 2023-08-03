@@ -1,12 +1,12 @@
 import { Fragment } from 'react'
 import Navbar from '../components/Navbar'
-import { getDocumentBySlug, markdownToHtml } from 'outstatic/server'
+import { getDocumentBySlug } from 'outstatic/server'
+import markdownToHtml from '../utils'
 
 export default async function Home() {
   const introduction = await getIntroductionContent()
-  
-  console.log(introduction)
 
+  console.log(introduction)
   return (
     <Fragment>
       <Navbar />
@@ -20,9 +20,8 @@ export default async function Home() {
 }
 
 const getIntroductionContent = async () => {
-  const post = getDocumentBySlug('sections', 'Introduction') 
-
+  const post = getDocumentBySlug('sections', 'Introduction')
   const content = await markdownToHtml(post.content)
-
+  
   return content
 }
