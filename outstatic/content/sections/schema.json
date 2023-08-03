@@ -1,13 +1,5 @@
 {
   "title": "sections",
   "type": "object",
-  "properties": {
-    "introductionParagraph": {
-      "required": false,
-      "description": "Paragraph in the Introduction Section",
-      "fieldType": "String",
-      "dataType": "string",
-      "title": "IntroductionParagraph"
-    }
-  }
+  "properties": {}
 }
