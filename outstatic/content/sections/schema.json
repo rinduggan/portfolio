@@ -2,13 +2,6 @@
   "title": "sections",
   "type": "object",
   "properties": {
-    "introductionTitle": {
-      "required": true,
-      "description": "Main title in the Introduction Section",
-      "fieldType": "String",
-      "dataType": "string",
-      "title": "IntroductionTitle"
-    },
     "introductionSubtitle": {
       "required": true,
       "description": "Subtitle in the Introduction Section",
