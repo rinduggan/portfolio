@@ -8,6 +8,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "IntroductionTitle"
+    },
+    "introductionSubtitle": {
+      "required": true,
+      "description": "Subtitle in the Introduction Section",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "IntroductionSubtitle"
     }
   }
 }
