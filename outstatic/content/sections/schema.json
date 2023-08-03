@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "introductionTitle": {
-      "required": false,
+      "required": true,
       "description": "Main title in the Introduction Section",
       "fieldType": "String",
       "dataType": "string",
