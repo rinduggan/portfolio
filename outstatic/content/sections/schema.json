@@ -1,0 +1,13 @@
+{
+  "title": "sections",
+  "type": "object",
+  "properties": {
+    "introductionTitle": {
+      "required": false,
+      "description": "Main title in the Introduction Section",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "IntroductionTitle"
+    }
+  }
+}
