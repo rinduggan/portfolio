@@ -15,6 +15,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "IntroductionSubtitle"
+    },
+    "introductionParagraph": {
+      "required": false,
+      "description": "Paragraph in the Introduction Section",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "IntroductionParagraph"
     }
   }
 }
