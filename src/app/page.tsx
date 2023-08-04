@@ -2,26 +2,29 @@ import { Fragment } from 'react'
 import Navbar from '../components/Navbar'
 import { getDocumentBySlug } from 'outstatic/server'
 import markdownToHtml from '../utils'
+import Link from 'next/link'
 
 export default async function Home() {
-  const introduction = await getIntroductionContent()
-
-  console.log(introduction)
+  //const introduction = await getIntroductionContent()
+  
   return (
-    <Fragment>
-      <Navbar />
+    <div className='flex justify-start mx-12 mt-12'>
       <div>
-        <h3>Hey, I'm Rin!</h3>
-        <h1>I make stuff.</h1>
-        <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est.</p>
+        <p>
+          <h1>Main site is under construction</h1>
+        </p>
+        <br />
+        <p>
+          <Link href="https://www.dropbox.com/scl/fi/e6cso3oniwkei1jfyvxy6/IrinaHeimerleResume.pdf?rlkey=hjv6b6dusjd6xvntq6x4tum8x&dl=0">Check out <span className="underline decoration-pink-500 hover:decoration-pink-700">my resume</span></Link>
+        </p>
       </div>
-    </Fragment>
+    </div>
   )
 }
 
-const getIntroductionContent = async () => {
-  const post = getDocumentBySlug('sections', 'Introduction')
-  const content = await markdownToHtml(post.content)
+// const getIntroductionContent = async () => {
+//   const post = getDocumentBySlug('sections', 'Introduction')
+//   const content = await markdownToHtml(post.content)
   
-  return content
-}
+//   return content
+// }
