@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Hexagon from '@/components/Hexagon'
 import { emblemaOne } from './fonts'
 import Image from 'next/image'
