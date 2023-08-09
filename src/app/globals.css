@@ -2,42 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #4D4D77; 
-  --text: #F4EDED;
-  --highlight: #F9DB6D;
-}
-
-/* @media (prefers-color-scheme: dark) { */
-/*   :root { */
-/*     --foreground-rgb: 255, 255, 255; */
-/*     --background-start-rgb: 0, 0, 0; */
-/*     --background-end-rgb: 0, 0, 0; */
-/*   } */
-/* } */
-
 body {
-  color: var(--text);
-  background: var(--background)
+  height: 100%;
 }
 
-.navbar {
-  background: var(--highlight);
-  height: 25x;
-  padding: 15px;  
-}
-
-.navbar > span {
-  text-align: center;
-  color: var(--background);
-}
-
-.navbar > span:hover {
-  background: var(--background);
-  border-radius: 4px;
-  color: var(--text);
-}
-
-.navbar > span > a {
-  padding: 5px 10px;
-}

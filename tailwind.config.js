@@ -7,6 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      spacing: {
+        '25': '25%',
+        '15': '15%',
+      },
+      colors: {
+        'dark-green': '#35524A',
+        'light-grey': '#D9D9D9',
+        'gold': '#F7E98E',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

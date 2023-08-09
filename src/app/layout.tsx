@@ -1,4 +1,6 @@
-import Navbar from "@/components/Navbar"
+import '@/app/globals.css'
+import Navbar from '@/components/Navbar'
+import { cousine } from './fonts'
 
 export const metadata = {
   title: 'Rin Heimerle',
@@ -11,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${cousine.className} bg-dark-green text-light-grey`}>
       <body>
         <Navbar />
         {children}
