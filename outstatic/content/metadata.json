@@ -1,0 +1,24 @@
+{
+  "commit": "f8a89dbd744d765711422baba0bdf9767b1bded0",
+  "generated": "Tue, 15 Aug 2023 19:37:34 GMT",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "3dfdf8aafe8381b58581a7ca00b3c3c2e91da031",
+        "hash": "2106396972",
+        "path": "outstatic/content/sections/introduction.md"
+      },
+      "author": {
+        "name": "Rin Duggan",
+        "picture": "https://avatars.githubusercontent.com/u/35308942?v=4"
+      },
+      "collection": "sections",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2023-08-03T15:52:35.005Z",
+      "slug": "introduction",
+      "status": "published",
+      "title": "Introduction"
+    }
+  ]
+}
