@@ -1,6 +1,6 @@
 {
-  "commit": "8141c02d308bc2b507fce087dc6c9663cee1fdac",
-  "generated": "2023-08-15T19:38:09.846Z",
+  "commit": "3ff4825565bdff04d4fa3509364a37d3dc5b52c1",
+  "generated": "Tue, 15 Aug 2023 19:48:11 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -22,7 +22,7 @@
     },
     {
       "__outstatic": {
-        "commit": "8141c02d308bc2b507fce087dc6c9663cee1fdac",
+        "commit": "4d00d4411d45be39866d566c8515c0723010161f",
         "hash": "3417357068",
         "path": "outstatic/content/posts/my-first-blog-post.md"
       },
