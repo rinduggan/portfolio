@@ -1,11 +1,7 @@
 'use client'
 
-import Image from "next/image";
 import Link from "next/link";
-import MenuIcon from '../../../public/menu.svg'
-import XIcon from '../../../public/x.svg'
 import { emblemaOne } from "@/app/fonts";
-import { Disclosure } from "@headlessui/react";
 
 export default function Navbar() {
   return (
