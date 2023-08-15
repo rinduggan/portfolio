@@ -1,6 +1,6 @@
 {
-  "commit": "fe8f64336f5198146981d5af65f072cca48f6f9a",
-  "generated": "2023-08-15T20:09:16.108Z",
+  "commit": "2ab88a6fb0a7910233af0f43f035a629fcd7a25c",
+  "generated": "2023-08-15T20:09:25.772Z",
   "metadata": [
     {
       "__outstatic": {
@@ -91,6 +91,24 @@
       "slug": "my-fourth-blog-post",
       "status": "published",
       "title": "My fourth blog post"
+    },
+    {
+      "__outstatic": {
+        "commit": "2ab88a6fb0a7910233af0f43f035a629fcd7a25c",
+        "hash": "1046648310",
+        "path": "outstatic/content/posts/my-fifth-blog-post.md"
+      },
+      "author": {
+        "name": "Rin Heimerle",
+        "picture": "https://avatars.githubusercontent.com/u/35308942?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2023-08-15T19:51:18.833Z",
+      "slug": "my-fifth-blog-post",
+      "status": "draft",
+      "title": "My fifth blog post"
     }
   ]
 }
