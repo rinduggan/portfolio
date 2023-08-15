@@ -1,6 +1,6 @@
 {
-  "commit": "f8a89dbd744d765711422baba0bdf9767b1bded0",
-  "generated": "Tue, 15 Aug 2023 19:37:34 GMT",
+  "commit": "8141c02d308bc2b507fce087dc6c9663cee1fdac",
+  "generated": "2023-08-15T19:38:09.846Z",
   "metadata": [
     {
       "__outstatic": {
@@ -19,6 +19,24 @@
       "slug": "introduction",
       "status": "published",
       "title": "Introduction"
+    },
+    {
+      "__outstatic": {
+        "commit": "8141c02d308bc2b507fce087dc6c9663cee1fdac",
+        "hash": "3417357068",
+        "path": "outstatic/content/posts/my-first-blog-post.md"
+      },
+      "author": {
+        "name": "Rin Heimerle",
+        "picture": "https://avatars.githubusercontent.com/u/35308942?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2023-08-15T19:19:53.246Z",
+      "slug": "my-first-blog-post",
+      "status": "published",
+      "title": "My first blog post"
     }
   ]
 }
