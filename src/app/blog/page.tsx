@@ -7,6 +7,6 @@ export default async function Blog() {
 }
 
 const getData = async () => {
-    const posts = getDocuments('sections', ['title'])
+    const posts = getDocuments('posts', ['title'])
     return posts
 }
